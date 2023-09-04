@@ -8,3 +8,70 @@
     width: 1px !important;
     overflow: hidden;
   }
+
+  :root{
+    --accent-color: #03A9F4;
+    --menu-color: #7D7D7D;
+    --blogs-color: #626262;
+    --title-color: #B4AD9E;
+  }
+
+  .body{
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+
+  .header-menu-link:hover,
+  .header-menu-link:focus{
+    color: var(--accent-color);
+  }
+
+  .header-menu-link{
+    color: var(--menu-color);
+    font-style: normal;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .blogs-link {
+    color: var(--title-color);
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+
+  .blogs-link:hover,
+  .blogs-link:focus{
+    color: var(--accent-color);
+  }
+
+  .blogs-title {
+    color: var(--blogs-color);
+    font-size: 30px;
+    font-style: normal;
+
+  }
+
+  .blogs-text {
+    color: var(--blogs-color);
+    font-style: normal;
+  }
+
+  .button {
+    color: var(--blogs-color);
+    font-family: Playfair Display;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .button:hover,
+  .button:focus{
+    color: var(--accent-color);
+  }
+
+  a {
+    text-decoration: aliceblue;
+}
